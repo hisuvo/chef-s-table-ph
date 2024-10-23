@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co.com/qjLwhhF/Project-Cover7.png",
+        "name": "Classic Spaghetti Bolognese",
+        "description": "A hearty Italian pasta dish with a rich and flavorful meat sauce.",
+        "ingredients": [
+            "Spaghetti",
+            "Ground beef",
+            "Onion",
+            "Garlic",
+            "Tomato sauce",
+            "Olive oil",
+            "Parmesan cheese",
+            "Salt",
+            "Pepper"
+        ],
+        "prep_time": "15 minutes",
+        "cook_time": "45 minutes",
+        "calories": 600
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co.com/RPHwC43/Project-Cover.jpg",
+        "name": "Chicken Caesar Salad",
+        "description": "Crisp romaine lettuce with grilled chicken, croutons, Parmesan, and Caesar dressing.",
+        "ingredients": [
+            "Romaine lettuce",
+            "Grilled chicken breast",
+            "Croutons",
+            "Caesar dressing",
+            "Parmesan cheese",
+            "Lemon juice",
+            "Black pepper"
+        ],
+        "prep_time": "10 minutes",
+        "cook_time": "15 minutes",
+        "calories": 350
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co.com/F5cxRBz/Project-Cover5.png",
+        "name": "Vegetarian Stir-Fry",
+        "description": "A healthy stir-fry with a colorful mix of vegetables and tofu.",
+        "ingredients": [
+            "Broccoli",
+            "Carrot",
+            "Bell pepper",
+            "Soy sauce",
+            "Garlic",
+            "Ginger",
+            "Olive oil",
+            "Tofu",
+            "Sesame seeds"
+        ],
+        "prep_time": "10 minutes",
+        "cook_time": "20 minutes",
+        "calories": 250
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co.com/Rp3pmXV/Project-Cover8.png",
+        "name": "Mango Smoothie",
+        "description": "A refreshing smoothie with ripe mango, banana, and yogurt.",
+        "ingredients": [
+            "Mango",
+            "Banana",
+            "Greek yogurt",
+            "Honey",
+            "Almond milk",
+            "Ice cubes"
+        ],
+        "prep_time": "5 minutes",
+        "cook_time": "0 minutes",
+        "calories": 200
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co.com/0njsp1c/Project-Cover.png",
+        "name": "Chocolate Chip Cookies",
+        "description": "Classic chewy chocolate chip cookies with a perfect balance of crisp and soft.",
+        "ingredients": [
+            "All-purpose flour",
+            "Butter",
+            "Brown sugar",
+            "Granulated sugar",
+            "Chocolate chips",
+            "Eggs",
+            "Vanilla extract",
+            "Baking soda",
+            "Salt"
+        ],
+        "prep_time": "20 minutes",
+        "cook_time": "12 minutes",
+        "calories": 150
+    }
+]
