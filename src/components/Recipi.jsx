@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
+import { FaFire } from "react-icons/fa";
 import { GiRiceCooker } from "react-icons/gi";
 import { MdOutlineTimer } from "react-icons/md";
-import { SlEnergy } from "react-icons/sl";
 
 
-const Recipi = () => {
+const Recipi = ({ handleRecipi }) => {
     const [recipi, setRecipi] = useState([])
     useEffect(() => {
         fetch("../../public/recipes.json")
@@ -40,15 +40,15 @@ const Recipi = () => {
                     {/* divider */}
                     <div className="divider"></div>
                     {/* Timer part */}
-                    <div className="flex justify-between">
-                        <p className="flex justify-center items-center gap-2"><MdOutlineTimer />{item.prep_time}</p>
+                    <div className="flex justify-between text-lg font-semibold">
+                        <p className="flex justify-center items-center gap-2"><MdOutlineTimer />{item.prep_time} Mins</p>
                         <p className="flex justify-center items-center gap-2"><GiRiceCooker />
-                            {item.cook_time}</p>
-                        <p className="flex justify-center items-center gap-2"><SlEnergy /> {item.calories}Cal</p>
+                            {item.cook_time} Mins</p>
+                        <p className="flex justify-center items-center gap-2"><FaFire /> {item.calories}Cal</p>
                     </div>
                     {/* button add here */}
                     <div className="card-actions">
-                        <button
+                        <button onClick={() => handleRecipi(item)}
                             className="btn text-[1.2rem] font-medium px-8 bg-green-300"
                         >Want to Cook</button>
                     </div>

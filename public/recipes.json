@@ -15,8 +15,8 @@
             "Salt",
             "Pepper"
         ],
-        "prep_time": "15 minutes",
-        "cook_time": "45 minutes",
+        "prep_time": "15",
+        "cook_time": "45",
         "calories": 600
     },
     {
@@ -33,8 +33,8 @@
             "Lemon juice",
             "Black pepper"
         ],
-        "prep_time": "10 minutes",
-        "cook_time": "15 minutes",
+        "prep_time": "10",
+        "cook_time": "15",
         "calories": 350
     },
     {
@@ -53,8 +53,8 @@
             "Tofu",
             "Sesame seeds"
         ],
-        "prep_time": "10 minutes",
-        "cook_time": "20 minutes",
+        "prep_time": "10",
+        "cook_time": "20",
         "calories": 250
     },
     {
@@ -70,8 +70,8 @@
             "Almond milk",
             "Ice cubes"
         ],
-        "prep_time": "5 minutes",
-        "cook_time": "0 minutes",
+        "prep_time": "5",
+        "cook_time": "0",
         "calories": 200
     },
     {
@@ -90,8 +90,8 @@
             "Baking soda",
             "Salt"
         ],
-        "prep_time": "20 minutes",
-        "cook_time": "12 minutes",
+        "prep_time": "20",
+        "cook_time": "12",
         "calories": 150
     }
 ]
